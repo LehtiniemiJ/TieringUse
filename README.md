@@ -21,6 +21,8 @@ T0 includes most of the critical resources; Domain Controller, PKI,
 ### T1
 
 Production servers should be placed in T1
+When LAPS is in use the old local passwords no longer work. If needed local admin use LAPS password. If doing normal admin works use T1 Admin account that has admin privileges in the machine.  For example use LAPS password if server disconnects from domain.
+
 - SCCM
 - 
 
