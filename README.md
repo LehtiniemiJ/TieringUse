@@ -35,7 +35,7 @@ TE is tier dedicated for endpoints, TE account is not an admin account. The acco
 
 ### t0 - Silo 
 
-Description of t0 - Silo.
+Silo is a container that is supposed to have the T0 credentials and T0 PAWs/Jump stations. The servers in the environment should be in the OU, and not in the silo.
 
 ### RDP
 
