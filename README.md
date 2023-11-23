@@ -31,6 +31,14 @@ When LAPS is in use the old local passwords no longer work. If needed local admi
 TE is tier dedicated for endpoints, TE account is not an admin account. The account is used only to loginto the PAW/jump stations. should be the account used to access this tier. The Endpoints should be accessed with the TE user and processes ran with  Local admin account LAPS password. 
 
 ## PAW - Jumpstation
+
+
+### t0 - Silo 
+
+Description of t0 - Silo.
+
+### RDP
+
 Tiering – how to create a RDP shortcut
 
 This instruction is used to create a RDP shortcut (settings) for use with jumphosts in a tiered (SILO) environment.  
@@ -64,14 +72,6 @@ For connection errors:
 •	check that NLA is disabled on the jumphost
 •	make sure the jumphost have been restarted atleast twice after applying the jumphost GPO:s
 •	try using ip address or NetBIOS name instead of FQDN. 
-
-### t0 - Silo 
-
-Description of t0 - Silo.
-
-### RDP
-
-Information about RDP.
 
 ## Credentials
 
