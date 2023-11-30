@@ -146,3 +146,9 @@ Details about EXT.
 ### FTE
 
 Information about FTE.
+
+
+### Good Questions from clients
+
+##Doesnt EDR protect the environment from a attacker who is trying to do lateral movement and priviledge escalation
+EDR can protect the environment from attackers who try to move laterally and escalate their privileges, but not always. Some systems may have vulnerabilities that EDRs cannot detect. For example, an office product may have a privilege escalation vulnerability that allows an attacker to gain local admin privileges. With these privileges, the attacker can turn off the EDR software and exploit the device easily. If the Domain Admin has used that device, the attacker can also steal their credentials from that endpoint. The tiering project prevents high-privilege credentials from accessing devices that are not in their tier.
