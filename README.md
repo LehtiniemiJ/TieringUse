@@ -39,12 +39,16 @@ This approach is indeed highly useful in environments where developers need high
 
 This is a practical application of the principle of least privilege, which is all about giving users only the access that they need to perform their jobs and no more. In an ideal scenario, production, development, and IT would be separate entities, each with its own set of access controls and privileges. This not only enhances security but also helps in maintaining a clean and organized IT infrastructure.
 
+Downsides:  
+ - This prevents users from doing jump after jump with RDP  
+Upsides:
+ - SSO-like signin, secure.
 
    
 ### Restricted Admin Mode 
 Prevents Authentication if one does not have admin permission on the target.
 
-~~Downside~~ Upsides:  
+~~Downsides~~ Upsides:  
  - Causes a headache when trying to use the environment like one did before they had tiering implemented.
  - Credentials aren't sent to the remote host ()
  - The Remote Desktop session connects to other resources as the remote host's identity
@@ -57,10 +61,7 @@ It might be usefull to understand the differences between RCG and RAM
 
 Is a security feature (Windows 10->, Server 2016->) that helps to protect credentials over RDP. It works by redirecting Kerberos requests back to the device that is requiring the connection. The benefit is that the credentials never pass over network to the target device, thus if the targed device would be compromised the credentials cannot be dug out of the memory on that device. Enables SSO, Multihop RDP.   
 
-Downside:  
- - This prevents users from doing jump after jump with RDP  
-Upside:
- - SSO-like signin, secure.
+
 
 ## Tiering
 From Truesec Materials:  
