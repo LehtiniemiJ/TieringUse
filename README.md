@@ -35,7 +35,7 @@ If an admin account is created for tier 1, it doesn’t have permissions by defa
   
 This approach is part of a broader strategy for effective privilege management, which is a key aspect of organizational security. It helps to limit the potential for unauthorized access and reduces the attack surface.  
  
-This approach is indeed highly useful in environments where developers need high-level access to a DB server that is in the IT infrastructure, but their access to non-relevant IT resources are restricted. Similarly, access from IT admins to the development environment can be limited.  
+The approach is indeed highly useful in environments where developers need high-level access to a IT infra for example access to a DB server, but their access to non-relevant IT resources are restricted. Similarly, access from IT admins to the development environment can be limited.  
 
 This is a practical application of the principle of least privilege, which is all about giving users only the access that they need to perform their jobs and no more. In an ideal scenario, production, development, and IT would be separate entities, each with its own set of access controls and privileges. This not only enhances security but also helps in maintaining a clean and organized IT infrastructure.
 
