@@ -11,7 +11,7 @@ In this document, I will introduce tiering and its associated elements. Tiering 
 
 In tiered environment we have limited RDP. This is mainly done with RAM. User needs to have Admin privileges on a targed devices to be able to RDP to it. You can NOT RDP from that devices to another device again. You need to reset session to the PAW and make a new connection from there. This is due technical limitations of using RAM. 
 
-![Untitled Diagram](https://github.com/LehtiniemiJ/TieringUse/assets/44233030/0c3c64bd-4f84-4ba1-a45d-f9ae603a7ae3)
+![Tieringlayers](https://github.com/LehtiniemiJ/TieringUse/assets/44233030/af2ed8ae-9606-4165-83aa-777bf5126118)
 
 
 
